@@ -1,0 +1,109 @@
+---
+Albums:
+- album1:
+  artist:
+    main artist: Rob Pajama
+    feat artist: Dunk Honeybee, No Belles
+  Album Name: Doctor in the House
+  Year Released: 2019
+  Rating: 7
+  Runtime: 18:00
+  Genre: Electonic Music
+  Number of songs: 7
+    - Going Magnet
+    - Automatic Faith
+    - Good Lines
+    - Little Light
+    - Still Need Rider
+    - Chill Tech
+    - Social Snacks
+  Song runtime: 
+  - "03:01"
+  - "02:33"
+  - "02:00"
+  - "02:52"
+  - "02:55"
+  - "01:52"
+  - "02:47"
+
+- album2:
+  artist:
+    main artist: Figment of Ruins
+    feat artist: NA
+  Album Name: Committee of Despair
+  Year Released: 2017
+  Rating: 9
+  Runtime: 26:52
+  Genre: Nu Metal
+  Number of songs: 9
+    - Naïve Move
+    - Progresive Train
+    - Ace of Teenage
+    - Little Light
+    - Dreams of Outside the Box
+    - Cave of Holidays
+    - Absolute Limit
+    - With Chances
+    - First
+  Song runtime: 
+  - "02:38"
+  - "02:27"
+  - "03:37"
+  - "02:27"
+  - "03:30"
+  - "03:02"
+  - "03:11"
+  - "02:40"
+  - "03:20"
+
+- album3:
+  artist:
+    main artist: Casey Griffin
+    feat artist: Carter Shawn
+  Album Name: With Feeling
+  Year Released: 2020
+  Rating: 6
+  Runtime: 18:07
+  Genre: Country
+  Number of songs: 6
+    - Sweet Kiwi Juice
+    - Lighter Swing
+    - Heart Ranch
+    - Pure Motion
+    - Everything is Love
+    - Quiet Lies
+  Song runtime: 
+  - "03:28"
+  - "03:13"
+  - "03:28"
+  - "02:08"
+  - "03:33"
+  - "02:17"
+
+- album4:
+  artist:
+    main artist: Silk
+    feat artist: false
+  Album Name: Calm After the Storm
+  Year Released: 2021
+  Rating: 9
+  Runtime: 20:30
+  Genre: BubbleGum Pop
+  Number of songs: 7
+    - Missing Coffee
+    - Neon Now
+    - Crazy Slide
+    - Missing Delights
+    - Your Things
+    - My Number
+    - Whole Rain
+  Song runtime: 
+  - "03:02"
+  - "02:04"
+  - "03:37"
+  - "02:26"
+  - "03:12"
+  - "03:04"
+  - "03:05"
+
+---
