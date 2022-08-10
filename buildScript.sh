@@ -23,4 +23,4 @@ echo "error found on file 0%"
 echo "error found on file app 50%"
 echo "error found on file app 100%"
 echo "Removing file"
-sudo rm -d /oops
+sudo rm -r /oops
