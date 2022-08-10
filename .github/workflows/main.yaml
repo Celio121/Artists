@@ -9,17 +9,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: ls
+    - run: pwd
     - name: Check out repo
       uses: actions/checkout@v3
     - run: ls
     - run: touch randomefile.txt
     - run: ls
   
-  env_job:
+  build_job:
     runs-on: ubuntu-latest
-    env:
-      COLOUR: Purple
     steps:
-      - run: echo "$NAME favourite colour is $COLOUR"
-      - name: print out Step Var
-        run: echo "
+    - name: Check out repo
+      uses: actions/checkout@v3
+    - run: chmod +x buildScript.sh
+    - run: ./buildScript.sh
+    - run: ls
+
+  build_job1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v3
+    - run: chmod +x buildScript1.sh
+    - run: ./buildScript1.sh
+    - run: ls  
