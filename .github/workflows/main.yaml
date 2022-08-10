@@ -1,5 +1,9 @@
 name: git actions demo
 on: [push]
+env:
+  NAME: Celio
+  SECRET PASSWORD: ${{ secrets.secret password}}
+  
 jobs:
   Actions_demo:
     runs-on: ubuntu-latest
@@ -10,3 +14,12 @@ jobs:
     - run: ls
     - run: touch randomefile.txt
     - run: ls
+  
+  env_job:
+    runs-on: ubuntu-latest
+    env:
+      COLOUR: Purple
+    steps:
+      - run: echo "$NAME favourite colour is $COLOUR"
+      - name: print out Step Var
+        run: echo "
