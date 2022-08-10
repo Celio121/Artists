@@ -2,7 +2,7 @@ name: git actions demo
 on: [push]
 env:
   NAME: Celio
-
+  SECRET PASSWORD: ${{ secrets.secret password}}
   
 jobs:
   Actions_demo:
