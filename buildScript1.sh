@@ -1,10 +1,8 @@
 #! /bin/bash
 
-Location: pwd
-echo Location
+echo pwd
 
-User: whoami
-echo User
+echo whoami
 
 touch randomtext.txt
 echo "Hello!" >> randomtext.txt

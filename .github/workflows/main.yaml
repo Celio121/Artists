@@ -2,7 +2,7 @@ name: git actions demo
 on: [push]
 env:
   NAME: Celio
-  SECRET PASSWORD: ${{ secrets.secret password}}
+
   
 jobs:
   Actions_demo:
@@ -21,7 +21,7 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v3
-    - run: chmod +x buildScript.sh
+    - run: chmod +rwx buildScript.sh
     - run: ./buildScript.sh
     - run: ls
 
@@ -30,6 +30,6 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v3
-    - run: chmod +x buildScript1.sh
+    - run: chmod +rwx buildScript1.sh
     - run: ./buildScript1.sh
     - run: ls  
